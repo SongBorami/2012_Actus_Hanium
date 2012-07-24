@@ -8,7 +8,7 @@
 <Button
     android:id="@+id/gameinfo"
     android:layout_width="fill_parent"
-    android:layout_height="80dp"
+    android:layout_height="50dp"
      android:background="@drawable/btn_stadium_info"
      android:layout_margin="10sp" />
         

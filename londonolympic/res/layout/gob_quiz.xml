@@ -26,7 +26,6 @@
   android:layout_width="fill_parent"
   android:layout_height="wrap_content"
   android:paddingBottom="20dip"
- 
   
   />
 
@@ -90,13 +89,12 @@
   android:layout_marginRight="10dip"
   android:textColor="#ff0000"
 	/>
-  <ImageView  
-  android:src="@drawable/quiz_normal"
-  android:layout_width="150dip" 
-  android:id="@+id/quiz_normal" 
-  android:layout_gravity="left"
-  android:layout_height="150dip"></ImageView>
-  
+
+   <ImageView
+       android:id="@+id/quiz_normal"
+       android:layout_width="90dp"
+       android:layout_height="90dip"
+       android:src="@drawable/quiz_normal" />
   
 	</LinearLayout>
 </LinearLayout>

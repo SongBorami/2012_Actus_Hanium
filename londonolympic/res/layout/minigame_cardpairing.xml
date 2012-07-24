@@ -162,17 +162,17 @@
     		android:id="@+id/start"
     		android:layout_width="fill_parent"
     		android:layout_height="fill_parent"
-    		android:text="시작하기"
     		android:layout_weight="1"
     		android:layout_margin="6dip"
+    		android:background="@drawable/start"
     		/>
     	<Button
     		android:id="@+id/exit"
     		android:layout_width="fill_parent"
     		android:layout_height="fill_parent"
-    		android:text="종료하기"
     		android:layout_weight="1"
     		android:layout_margin="6dip"
+    		android:background="@drawable/exit"
     		/>
     </LinearLayout>
     

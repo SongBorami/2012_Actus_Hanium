@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.corea.londonolympic"
+    package="kr.actus"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -48,11 +48,20 @@
         <receiver android:name="AlarmReceiver"
 		android:theme="@android:style/Theme.NoTitleBar" >
 			<Intent-filter>
-				<action android:name="corea.londoniympic.PlayList"/>
+				<action android:name="kr.actus.PlayList"/>
 			</Intent-filter>
 		</receiver>
 		
+        <receiver android:name =".AlarmBootReceiver">
+    <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+    </intent-filter>
+</receiver>
+		
     </application>
+    <uses-permission android:name="android.permission.VIBRATE"></uses-permission>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"></uses-permission>
 
+   
 </manifest>
